@@ -1,0 +1,29 @@
+Basic formulas of Excel:
+
+-> Average = "=AVERAGE(data[Amount])"
+-> Median = "=MEDIAN(data[Amount])"
+-> Min = "=MIN(data[Amount])"
+-> Max = "=MAX(data[Amount])"
+-> Range = "=B5-B4" (Max-Min,specify the column and row to subtract)
+-> First Quartile(1/4th) = "=PERCENTILE.EXC(data[Amount],0.25)"
+-> Third Quartile(3/4th) = "=PERCENTILE.EXC(data[Amount],0.75)"
+-> Distinct values in a column = "=UNIQUE(data[Product])"
+-> Distinct count of values in a column = "=COUNTA(UNIQUE(data[Product]))"
+-> Unique countries = "=UNIQUE(data[Geography])"
+-> SUMIFS = "=SUMIFS(data[Amount],data[Geography],A2)"
+-> Combine tables = "=XLOOKUP([@Product],products[Product],products[Cost per unit])"
+------------------------------------------------------------------------------------------------------------------------
+Short cuts :
+
+	ctrl+shft+l => To add filters to table
+	ctrl+t => To make data as a table
+	ctrl+shft+down arrow => To select an entire column
+	ctrl+shft+4 => To add currency symbol
+	ctrl+1 => Open format cell
+ -----------------------------------------------------------------------------------------------------------------------
+Key Notes:
+
+	=> Exploratory Data Analysis(EDA) with CF(Conditional Formatting)
+	=> SUMIFS (Important formula)
+	=> Use lookup formulas to combine tables
+	=> Data -> Data validation -> List -> Select values (Drop down box)
