@@ -1,5 +1,5 @@
 SELECT COUNT(DISTINCT bike_id) AS no_of_bikes
-FROM `bigquery-public-data.london_bicycles.cycle_hire` 
+FROM 'bigquery-public-data.london_bicycles.cycle_hire' 
 WHERE end_station_name ='Moor Street, Soho';
 
 --BigQuery
