@@ -1,0 +1,26 @@
+---
+title: "ggplot_hook"
+author: "Krishna B"
+date: "2024-06-23"
+output: pdf_document
+---
+
+## Setting up my environment
+Notes: setting up my R environment by loading the 'tidyverse' and 'Palmerpenguins' packages
+
+
+```{r loading packages}
+
+library(tidyverse)
+library(palmerpenguins)
+data(penguins)
+View(penguins)
+
+ggplot(data = penguins) +
+
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+
+```
+
+
+
