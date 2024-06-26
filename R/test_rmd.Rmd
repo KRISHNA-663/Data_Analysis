@@ -2,7 +2,7 @@
 title: "Penguins Plots"
 author: "Krishna B"
 date: "2024-06-23"
-output: html_document
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
